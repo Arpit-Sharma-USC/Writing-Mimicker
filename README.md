@@ -8,6 +8,7 @@ An LSTM to mimic the writing style of prominent British Mathematician, Philosoph
 •	A window size of 100 was selected to teach the LSTM 
 •	I used OneHotEncoding in sklearn to perform this task.
 •	Understanding the requirements of the softmax output layer:
+    
     o	Cross entropy indicates the distance between what the model believes the output distribution should be, and what the original             distribution really is. It is defined as,         
       
         H ( y , p )=−∑ ylog ( p ) 
